@@ -1,0 +1,17 @@
+body {
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: #f1d3bd;
+}
+
+h2 {
+	font-family: "Kaushan Script";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4em;
+	line-height: 1.2em;
+}
+
+.desc {
+	background-color: white;
+}
