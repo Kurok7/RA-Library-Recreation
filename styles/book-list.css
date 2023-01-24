@@ -3,3 +3,8 @@ body {
 	box-sizing: border-box;
 	background-color: #f1d3bd;
 }
+
+h2,
+h3 {
+	font-family: "Kaushan Script";
+}
