@@ -2,6 +2,8 @@ body {
 	margin: 0 auto;
 	box-sizing: border-box;
 	background-color: #f1d3bd;
+	font-family: "Kumbh Sans";
+	font-weight: bold;
 }
 
 h2 {
