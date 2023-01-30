@@ -8,3 +8,9 @@ body {
 h1 {
 	font-family: "Mate SC";
 }
+
+legend,
+label,
+input {
+	text-transform: uppercase;
+}
