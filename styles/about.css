@@ -12,8 +12,25 @@ h2 {
 	font-weight: 400;
 	font-size: 4em;
 	line-height: 1.2em;
+	margin-left: 5%;
+}
+
+.main {
+	margin: 0 5em;
 }
 
 .desc {
 	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+img {
+	width: 33em;
+}
+
+p {
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.2em;
 }
