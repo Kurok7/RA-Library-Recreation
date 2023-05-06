@@ -6,14 +6,29 @@ body {
 	padding: 1em;
 }
 
-h1 {
+.profile {
+	display: flex;
+	align-items: center;
+}
+
+.text {
+	padding-right: 10px;
 	font-family: "Mate SC";
 }
 
+img {
+	width: 2%;
+}
+
 .main-box {
-	border: 2px solid red;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+}
+
+h3 {
+	background-color: lightgray;
+	margin: 0;
+	padding: 0.3em;
 }
 
 legend,
@@ -22,12 +37,28 @@ input {
 	text-transform: uppercase;
 }
 
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="email"] {
+	background: rgb(198, 196, 196);
+}
+
 fieldset {
-	background-color: white;
+	border: none;
+	line-height: 250%;
+}
+
+.required::before {
+	content: "* ";
+	color: red;
 }
 
 fieldset > img {
-	width: 140px;
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 legend {
@@ -36,10 +67,26 @@ legend {
 }
 
 .contact-info {
-	height: 300px;
-	border: 3px solid blue;
+	width: 30%;
+	height: 400px;
+	background-color: white;
 }
 
 .picture {
-	border: 3px solid green;
+	background-color: white;
+	height: 100%;
+	width: 20%;
+}
+
+.pic-head {
+	text-align: center;
+}
+
+input[type="submit"] {
+	background-color: rgb(198, 196, 196);
+	padding: 1em;
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
