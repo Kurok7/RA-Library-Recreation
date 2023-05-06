@@ -3,14 +3,43 @@ body {
 	box-sizing: border-box;
 	background-color: #f1d3bd;
 	font-family: "Open Sans";
+	padding: 1em;
 }
 
 h1 {
 	font-family: "Mate SC";
 }
 
+.main-box {
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-evenly;
+}
+
 legend,
 label,
 input {
 	text-transform: uppercase;
+}
+
+fieldset {
+	background-color: white;
+}
+
+fieldset > img {
+	width: 140px;
+}
+
+legend {
+	background-color: lightgrey;
+	padding: 5px;
+}
+
+.contact-info {
+	height: 300px;
+	border: 3px solid blue;
+}
+
+.picture {
+	border: 3px solid green;
 }
