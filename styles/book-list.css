@@ -4,7 +4,59 @@ body {
 	background-color: #f1d3bd;
 }
 
+.grid {
+	display: grid;
+	grid-template: auto auto / 1fr 1fr;
+	gap: 1em;
+}
+
+.book {
+	background-color: rgb(219, 213, 213);
+	display: grid;
+}
+
+.accent {
+	grid-row: 1 / -1;
+	padding: 1em;
+	background-color: black;
+	width: auto;
+}
+
+.bookmark {
+}
+
+.description {
+	padding: 1.2em;
+}
+
 h2,
-h3 {
+.title {
 	font-family: "Kaushan Script";
+}
+
+h2 {
+	font-size: 40px;
+}
+
+.title {
+	font-size: 25px;
+	text-align: center;
+	line-height: 0.8em;
+}
+
+img {
+	width: 150px;
+	float: left;
+}
+
+.summary {
+	border: solid red 2px;
+	margin-left: 10.5em;
+	width: 50%;
+	text-align: center;
+}
+
+span {
+	text-decoration: underline;
+	font-family: "Karma";
 }
