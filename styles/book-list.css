@@ -4,6 +4,14 @@ body {
 	background-color: #f1d3bd;
 }
 
+h2 {
+	text-align: center;
+}
+
+.main-content {
+	padding: 1em;
+}
+
 .grid {
 	display: grid;
 	grid-template: auto auto / 1fr 1fr;
@@ -14,7 +22,7 @@ body {
 	position: relative;
 	background-color: rgb(219, 213, 213);
 	display: grid;
-	grid-template: 1fr auto / 1fr auto;
+	grid-template: 1fr auto / 1fr auto auto; /* Third auto "removes" bookmark border for all of them*/
 }
 
 .accent {
@@ -36,9 +44,7 @@ body {
 	position: absolute;
 	width: 2em;
 	height: 40px;
-	top: 0;
 	right: 0;
-	left: 41.5em;
 }
 
 .black-book {
@@ -70,13 +76,16 @@ img {
 }
 
 .summary {
-	border: solid red 2px;
 	margin-left: 10.5em;
 	width: auto;
 	text-align: center;
 }
 
-span {
+.line {
+	display: block;
+}
+
+.author {
 	text-decoration: underline;
 	font-family: "Karma";
 }
