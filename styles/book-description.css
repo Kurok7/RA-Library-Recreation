@@ -3,3 +3,42 @@ body {
 	box-sizing: border-box;
 	background-color: #f1d3bd;
 }
+
+.product {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 1em;
+}
+
+.book-1,
+.book-2 {
+	display: flex;
+	align-items: flex-start;
+	border: 2px solid black;
+}
+
+.book-img {
+	width: 150px;
+}
+
+.info {
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
+
+.badge {
+	width: 100px;
+}
+
+h3 {
+	font-family: "Kaushan Script";
+}
+
+.rating {
+	width: 100px;
+}
+
+.book-category {
+	border: 2px solid blue;
+}
