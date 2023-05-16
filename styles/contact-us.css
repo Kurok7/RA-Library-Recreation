@@ -1,9 +1,51 @@
 body {
 	margin: 0 auto;
 	box-sizing: border-box;
-	/* background-image: url("/Users/juanmalone/Desktop/Reskill-Americans-Projects/library-recreation/assets/background.png"); */
-	background-size: cover;
+	background-color: #f1d3bd;
+}
+
+.background-img {
+	background: url("/Users/juanmalone/Desktop/Reskill-Americans-Projects/library-recreation/assets/contact-image.png");
 	background-position: center;
-	background-repeat: no-repeat;
-	background-color: #b6a497;
+	background-size: cover;
+}
+
+.header {
+	font-family: "Kaushan Script";
+	text-align: center;
+	font-size: 11em;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 3em;
+	margin-bottom: 3em;
+}
+
+:placeholder-shown {
+	font-size: 16px;
+}
+
+.center-button {
+	display: flex;
+	justify-content: center;
+}
+
+input[type="submit"] {
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	padding: 0.3em 3em;
+	border: none;
+	font-size: 40px;
 }
