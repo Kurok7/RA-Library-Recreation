@@ -40,6 +40,16 @@ h3 {
 	font-size: 26px;
 }
 
+.book-type {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.isbn {
+	margin-top: -20px;
+	font-size: 14px;
+}
+
 .title {
 	display: block;
 	text-align: center;
