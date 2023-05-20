@@ -3,3 +3,25 @@ body {
 	box-sizing: border-box;
 	background-color: #f1d3bd;
 }
+
+.side-bar {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 10em; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: rgba(188, 174, 174, 1);
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 1em;
+}
+
+.side-bar a {
+	text-decoration: none;
+	color: black;
+}
+
+.checkbox {
+	width: 20px;
+	display: block;
+}
