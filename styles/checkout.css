@@ -30,6 +30,10 @@ body {
 	margin-left: 12em;
 }
 
+h2 {
+	font-size: 32px;
+}
+
 .product-1,
 .product-2 {
 	display: flex;
@@ -60,6 +64,10 @@ body {
 	padding: 0 2em;
 }
 
+.book-info > p {
+	font-size: 18px;
+}
+
 span {
 	display: block;
 	text-align: center;
@@ -83,6 +91,16 @@ h4 {
 
 .fav-icon {
 	width: 35px;
+	margin-right: 2em;
+}
+
+input[type="submit"] {
+	padding: 1em 2em;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: white;
+	border: none;
+	text-transform: uppercase;
 }
 
 .copies {
@@ -92,4 +110,14 @@ h4 {
 
 p:nth-child(2) {
 	margin-left: 2em;
+}
+
+.solid {
+	border-top: 8px solid black;
+	border-radius: 5px;
+	width: 95%;
+}
+
+.product-2 {
+	margin-top: 5em;
 }
