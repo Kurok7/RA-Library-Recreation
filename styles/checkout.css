@@ -19,11 +19,18 @@ body {
 .side-bar a {
 	text-decoration: none;
 	color: black;
+	display: flex;
+	padding: 10px 0;
 }
 
 .checkbox {
-	width: 20px;
+	width: 28px;
 	display: block;
+	margin-right: 5px;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .main-content {
@@ -68,9 +75,9 @@ h2 {
 	font-size: 18px;
 }
 
-span {
+.title {
 	display: block;
-	text-align: center;
+	margin-left: 0.5em;
 }
 
 .book-info h4 {
